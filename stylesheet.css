@@ -16,13 +16,17 @@ h1{
     
 }
 
-.blurb{
+.blurb h3{
     text-align: center; 
     padding-top: 2rem;
 }
 
-.blurb p{
+.blurb {
     padding-left: 8em;
     padding-right: 8em; 
     text-align: left;
 }
+
+ul {
+    list-style-type: none;
+  }

@@ -30,3 +30,11 @@ h1{
 ul {
     list-style-type: none;
   }
+
+  .bold-list{
+    font-weight: bold;
+  }
+
+  .bold-list span{
+      font-weight:400;
+  }

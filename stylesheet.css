@@ -12,6 +12,14 @@ h1{
     text-align:center;
 }
 
+div.fav_img{
+    text-align: center;
+}
+.favicon_logo{
+    width: 250px;
+
+}
+
 #topbar {
     background-color: blue;
     width: 100%;
@@ -39,6 +47,7 @@ h1{
      border-radius: 8px;
      text-align: center;
      vertical-align: center;
+     box-shadow: 2px 2px 2px 2px rgb(0, 0, 0,0.5);
   }
 
 

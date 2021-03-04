@@ -7,6 +7,11 @@ html, body {
     width: 100%; margin: 0; 
 }
 
+body{
+    background: #f1faee;
+    color: #111029;
+    font-family: Montserrat, sans-serif;
+}
 
 h1{
     text-align:center;
@@ -14,14 +19,17 @@ h1{
 
 div.fav_img{
     text-align: center;
+
 }
 .favicon_logo{
     width: 250px;
+    background: rgba(241, 250, 238);
+
 
 }
 
 #topbar {
-    background-color: blue;
+    background-color: #196aa2;
     width: 100%;
     height: 80px; 
     /* position: -webkit-sticky; */
@@ -36,20 +44,47 @@ div.fav_img{
 
 .nav-link{
     display: inline-block;
-     background-color: white; 
+     background-color: #e0f9ff; 
      margin: 5px;
      border: 3px solid black;
-     padding: 5px 5px;
-     height: 50px; 
-     width: 100px; 
+     padding: 10px 10px;
+     height: 3em; 
+     width: 10em; 
      text-decoration: none;
      color: black;
      border-radius: 8px;
      text-align: center;
      vertical-align: center;
      box-shadow: 2px 2px 2px 2px rgb(0, 0, 0,0.5);
+     color: #111029;
+     
   }
 
+  .nav-link:active,
+  .nav-link:hover{
+      background:#f4a261;
+  }
+  .nav-box-fix{
+      padding-bottom: 12px;
+      padding-top: 4px;
+  }
+  .main-nav-box{
+    display: inline-block;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.sm-box{
+  padding: 10px 5px;
+}
+
+.ext-link{
+    color: #f1faee;
+    background: rgba(89, 159, 140, 0.95); 
+}
 
 
 .blurb h3{
@@ -78,20 +113,4 @@ ul {
 
  
 
-  .main-nav-box{
-      display: inline-block;
-      display: flex;
-      justify-self: center;
-      align-items: center;
-      width: 40%;
-      justify-content: space-around;
-  }
-
-  .sm-box{
-    padding: 10px 5px;
-  }
-
-  .ext-link{
-      color: white;
-      background: lightslategray;
-  }
+  

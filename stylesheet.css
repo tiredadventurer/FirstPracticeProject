@@ -38,6 +38,7 @@ div.fav_img{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    scroll-behavior: smooth;
 
     
 }
@@ -57,12 +58,22 @@ div.fav_img{
      vertical-align: center;
      box-shadow: 2px 2px 2px 2px rgb(0, 0, 0,0.5);
      color: #111029;
-     
+     transition: 1s;
+     scroll-behavior: smooth; 
   }
 
   .nav-link:active,
   .nav-link:hover{
-      background:#f4a261;
+      background:#ffe785;
+  }
+
+  .nav-link:active{
+      box-shadow: -3px -3px 3px 3px rgb(0, 0, 0,0.5);
+      transform: translatey(3px); 
+  }
+
+  .ext-link:hover{
+      background: #f25f5c;
   }
   .nav-box-fix{
       padding-bottom: 12px;

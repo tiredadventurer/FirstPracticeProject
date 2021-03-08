@@ -96,32 +96,3 @@ div.fav_img{
     color: #f1faee;
     background: rgba(89, 159, 140, 0.95); 
 }
-
-
-.blurb h3{
-    text-align: center; 
-    padding-top: 2rem;
-}
-
-.blurb {
-    padding-left: 8em;
-    padding-right: 8em; 
-    text-align: left;
-    scroll-behavior: smooth;
-}
-
-ul {
-    list-style-type: none;
-  }
-
-  .bold-list{
-    font-weight: bold;
-  }
-
-  .bold-list span{
-      font-weight:400;
-  }
-
- 
-
-  

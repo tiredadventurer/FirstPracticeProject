@@ -1,0 +1,46 @@
+
+#form  {
+    position: relative;
+    margin:0; 
+    }
+
+form{
+    position: absolute;
+    left:30%;
+
+}
+
+.input{
+    margin: 6%; 
+    
+}
+label{
+    display: block;
+    font-size: large;
+    font-weight: bold;
+
+}
+#name{
+    margin-top: 8px; 
+    padding: 8px 83%;
+    padding-left: 2px;
+    
+}
+
+#email{
+    margin-top: 8px; 
+    padding: 8px 400px;
+    padding-left: 2px;
+    
+}
+
+#thoughts{
+    margin-top:8px; 
+}
+
+button{
+    border-radius: 8px;
+    font-size: medium;
+    padding: 8px;
+    font-weight: bold;
+}

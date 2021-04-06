@@ -5,12 +5,25 @@
 html, body { 
     
     width: 100%; margin: 0; 
+    height: 100vh; 
 }
 
 body{
     background: #f1faee;
     color: #111029;
     font-family: Montserrat, sans-serif;
+    min-height: 5000px; 
+}
+
+.backdrop {
+    background-color: rgba(0,0,0,0.5);
+    display: none; 
+    height: 100vh; 
+    width: 100vw;
+    top: 0;
+    left: 0; 
+    position: fixed; 
+    z-index: 10;
 }
 
 h1{
@@ -28,17 +41,21 @@ div.fav_img{
 
 }
 
+.navMenu{
+    position: sticky; 
+    top: 0px;
+    z-index: 5; 
+}
 #topbar {
     background-color: #196aa2;
     width: 100%;
     height: 80px; 
     /* position: -webkit-sticky; */
-    position: sticky; 
-    top: 0px;
     display: flex;
     justify-content:space-around;
     align-items: center;
     scroll-behavior: smooth;
+    position: sticky;
 
     
 }
@@ -95,4 +112,19 @@ div.fav_img{
 .ext-link{
     color: #f1faee;
     background: rgba(89, 159, 140, 0.95); 
+}
+
+.dropDown{
+    z-index: 20; 
+    height: 100vh; 
+    display: inline-block;
+    margin-right:0;
+    padding: 0; 
+    display: none; 
+}
+
+main{
+    position: absolute; 
+    top: 55%; 
+    left: 10%;
 }

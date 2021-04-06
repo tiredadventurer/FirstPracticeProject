@@ -6,13 +6,14 @@
 }
 
 .blurb {
-    padding-left: 6rem;
-    padding-right: 6rem; 
+    padding-left: 4rem;
+    padding-right: 4rem; 
     scroll-behavior: smooth;
     justify-items: center;
     min-width: 250px;
     margin: auto; 
     max-width: 1200px;
+    position: relative; 
 }
 
 .blurb p{

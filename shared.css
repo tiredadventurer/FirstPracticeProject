@@ -40,6 +40,14 @@ div.fav_img{
 
 }
 
+.favicon_logo_small{
+    width: 4rem; 
+    background: rgba(241, 250, 238);
+    border:rgba(241, 250, 238) solid 1px;
+    border-radius: 30px; 
+    display: none;
+}
+
 #topbar {
     background-color: #196aa2;
     width: 100%;
@@ -63,6 +71,7 @@ div.fav_img{
     vertical-align: middle;
     width: 3rem; 
     border-radius: 5px;
+    display: none;
 }
 
 .hamMenu_line{

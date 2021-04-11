@@ -13,7 +13,6 @@
     min-width: 250px;
     margin: auto; 
     max-width: 1200px;
-    text-align: justify;
 }
 
 
@@ -28,6 +27,17 @@ ul {
 
   .bold-list span{
       font-weight:400;
+  }
+  
+  #intro-heading-mobile{
+      display:none;
+  }
+
+  @media (max-width:1000px){
+
+    #intro-heading-mobile{
+        display: block; 
+    }
   }
 
  

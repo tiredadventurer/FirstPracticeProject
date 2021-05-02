@@ -48,6 +48,11 @@ div.fav_img{
     display: none;
 }
 
+#intro-heading-mobile{
+    display:none;
+}
+
+
 #topbar {
     background-color: #196aa2;
     width: 100%;
@@ -182,3 +187,15 @@ div.fav_img{
         display: none;
     }
 }
+
+.open{
+    display: block;
+}
+
+
+@media (max-width:1000px){
+
+    #intro-heading-mobile{
+        display: block; 
+    }
+  }

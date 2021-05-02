@@ -13,10 +13,16 @@
 </head>
 
 <body>
+    <div class="backdrop"></div>
     <h1 id="intro-heading">Contact Me</h1>
     <div class="fav_img"><img src="../Favicon/Favicon.png" alt="Logo for website" class="favicon_logo"></div>
 
     <nav id="topbar">
+        <button class="hamMenu">
+            <span class="hamMenu_line"></span>
+            <span class="hamMenu_line"></span>
+            <span class="hamMenu_line"></span>
+        </button>
         <a class="nav-link ext-link" href="../Learned/Learned.html">Topics Learned</a>
         <div class="main-nav-box">
             <a class="nav-link sm-box" href="../home.html">Introduction</a>
@@ -26,32 +32,59 @@
                 Projects</a>
         </div>
         <a class="nav-link sm-box ext-link" href="">Contact</a>
-
+        <img src="../Favicon/Favicon.png" alt="Logo for website" class="favicon_logo_small">
     </nav>
-    <div id="form">
+    <nav class="dropDown">
+        <ul class="dropDown_list">
+            <li class="dropDown_item">
+                <a class="mobile-lin" href="../home.html#intro-heading">Introduction</a>
+            </li>
+            <li class="dropDown_item">
+                <a class="mobile-link" href="../home.html#interests-heading">Interests</a>
+            </li>
+            <li class="dropDown_item">
+                <a class="mobile-link" href="../home.html#future-heading">Future Projects</a>
+            </li>
+            <li class="dropDown_item">
+                <a class="mobile-link" href="../Learned/Learned.html">Topics Learned</a>
+            </li>
+            <li class="dropDown_item">
+                <a class="mobile-link" href="../Completed Projects/CompletedProjects.html">Completed
+                    Projects</a>
+            </li>
+            <li class="dropDown_item">
+                <a class="mobile-link" href="Contact/Contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 id="intro-heading-mobile">Contact</h1>
+
+    <div class="contain">
         <form action="/nowhere">
-            <div class="input">
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="write your name" name="name">
-            </div>
 
-            <div class="input">
-                <label for="email">Email</label>
-                <input type="text" id="email" placeholder="write your email address" name="email">
-            </div>
 
-            <div class="input">
-                <label for="thoughts">Comment</label>
-                <textarea id="thoughts" placeholder="write your thoughts or opinions" name="thoughts" rows="16"
-                    cols="67"></textarea>
-            </div>
-            <div class="input">
-                <button>Submit</button>
-            </div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Write Your Name" name="name">
+
+
+
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Write Your Email Address" name="email">
+
+
+
+            <label for="thoughts">Comment</label>
+            <textarea id="thoughts" placeholder="Write Your Thoughts or Opinions" name="thoughts" rows="16"
+                cols="67"></textarea>
+
+
+            <button>Submit</button>
+
         </form>
-
     </div>
 
+    <script src="../app.js"></script>
 </body>
 
 </html>

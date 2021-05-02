@@ -29,16 +29,8 @@ ul {
       font-weight:400;
   }
   
-  #intro-heading-mobile{
-      display:none;
-  }
 
-  @media (max-width:1000px){
 
-    #intro-heading-mobile{
-        display: block; 
-    }
-  }
 
  
 
